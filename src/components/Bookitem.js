@@ -30,8 +30,8 @@ function Bookitem({ book ,listName}) {
                 oldCart.push(book);
              }
             localStorage.setItem("cart", JSON.stringify(oldCart));
-
         }  
+        alert(`${book.description} added successfully`);
     }
     return (
         <>
